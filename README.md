@@ -1,23 +1,33 @@
 # phreaknet-boilerplate
 Boilerplate Asterisk config files for PhreakNet
 
-### Files
+## Files
 
-`asterisk.conf` - General Asterisk config file
+### General Config Files
 
-`extensions.conf` - Main dialplan config file
-
-`iax.conf` - IAX2 configuration
+`asterisk.conf` - General Asterisk config
 
 `modules.conf` - Module loading
 
 `musiconhold.conf` - Music on hold
 
-`pjsip.conf` - PJSIP (new SIP channel driver) configuration
+### Channel Driver Config Files
 
-`sip.conf` - SIP (old, deprecated SIP channel driver) configuration
+`chan_dahdi.conf` - DAHDI config file (userland config, not the system DAHDI config)
+
+`iax.conf` - IAX2 channel driver
+
+`pjsip.conf` - PJSIP (new SIP channel driver) config
+
+`sip.conf` - SIP (old, deprecated SIP channel driver) config
+
+### Other Module Config Files
 
 `verify.conf` - Configuration file for `app_verify` module
+
+### Dialplan Configuration Files
+
+`extensions.conf` - Main dialplan config file
 
 `dialplan/phreaknet.conf` - Main, user-editable PhreakNet dialplan config
 
