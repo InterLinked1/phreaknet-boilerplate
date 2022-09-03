@@ -33,4 +33,6 @@ Boilerplate Asterisk config files for PhreakNet
 
 `dialplan/phreaknet-aux.conf` - PhreakNet auxillary dialplan library
 
+`dialplan/phreaknet-coin.conf` - PhreakNet Class 5 coin line library (dial tone first)
+
 `dialplan/verification.conf` - Verification subroutines dialplan library
